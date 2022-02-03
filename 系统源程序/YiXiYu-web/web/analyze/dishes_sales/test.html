@@ -1,0 +1,123 @@
+<script type="text/javascript" src="../../echarts.min.js"></script>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    window.onload=function(){
+        jQuery(document).ready(function($) {
+
+            var myChart = echarts.init(document.getElementById('container'));
+            var nav=document.getElementById("nav");
+            var reg = new RegExp("(d=)([a-z]*)");
+            var str=window.location.search.substr(1).match(reg);
+            nav.innerHTML='<i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">></span> 年度统计<span class="c-gray en">></span> 统计图 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>';
+            //图表的配置项设置
+            var  option = {
+            title : {   //图表显示的标题
+                text: '年度统计(2016-11-22到2020-02-13)',
+                    subtext: '真实数据',
+                    x:'center'
+            },
+            tooltip : {
+                trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {   //图表中显示的一个个小格子
+                orient: 'vertical',
+                    left:20,
+                    data:[]
+            },
+            toolbox: {
+                show : true,
+                    feature : {
+                    mark : {show: true},
+                    dataView : {show: true, readOnly: false},
+                    magicType : {
+                        show: true,
+                        // type: ['pie', 'funnel']
+                    },
+                    restore : {show: true},
+                    saveAsImage : {show: true}
+                }
+            },
+            calculable : true,
+                series : [    //扇形的设置
+                {
+                    name:'年度统计',
+                    type:'pie',
+                    radius: ['20%', '75%'],
+                    center : ['50%', '60%'],
+                    x: '50%',               // for funnel
+                    max: 40,                // for funnel
+                    sort : 'ascending',     // for funnel
+                    data:[]
+                }
+            ]
+        };
+
+
+        //调用设置函数
+        myChart.setOption(option);
+
+        $.ajax({    //用Ajax将上面servlet转换的json数据导入数据设置中
+            type : "post",
+            async : true,
+            url : "../QueryBySend_time",
+            type:"POST",
+            data:
+                {
+                    "method":"shan"
+                },
+            dataType:"json",
+
+            success:function(result) {
+                // alert(result.selected);
+                if(result)
+                {
+                    alert(option);
+                    var d=result;
+                    var leblist = [];
+                    var valuelist2 = [];
+
+                    for(var i=0;i<d.length;i++){
+
+                        var m={};
+
+                        m["value"]=d[i].num;
+                        m["name"]=d[i].name;
+
+                        valuelist2.push(m);   //扇形显示的数据
+                        leblist.push(d[i].name);  //扇形旁边显示的小格子的数据
+
+                    }
+
+                    // 将数据添加到数据图表中
+                    myChart.setOption({
+                        legend: {
+                            data:leblist
+                        },
+                        series: [
+                            {
+                                name:'年度统计',
+                                data: valuelist2
+                            }]
+                    });
+
+                }
+            },
+            error : function(errorMsg) {
+                //请求失败时执行该函数
+                alert("请求数据失败!");
+                // myChart.hideLoading();
+            }
+        });
+        //获取和处理数据
+
+    });
+    }
+</script>
+<body>
+<nav class="breadcrumb" id="nav">
+</nav>
+<div class="page-container">
+    <div id="container" style="min-width:700px;height:400px"></div>
+</div>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="sort_labels">
+        <item>干锅</item>
+        <item>汤锅</item>
+        <item>荤菜</item>
+        <item>素菜</item>
+        <item>料碗</item>
+        <item>主食</item>
+        <item>酒水饮料</item>
+        <item>其他</item>
+        <item>全部分类</item>
+    </array>
+
+    <array name="sort_icon">
+        <item>@mipmap/icon_home_self_189</item>
+        <item>@mipmap/icon_home_42</item>
+        <item>@mipmap/icon_home_food_99</item>
+        <item>@mipmap/icon_home_400</item>
+        <item>@mipmap/icon_home_999</item>
+        <item>@mipmap/icon_home_93</item>
+        <item>@mipmap/icon_home_happy_2</item>
+        <item>@mipmap/icon_home_37</item>
+        <item>@mipmap/icon_home_all_0</item>
+    </array>
+
+
+</resources>

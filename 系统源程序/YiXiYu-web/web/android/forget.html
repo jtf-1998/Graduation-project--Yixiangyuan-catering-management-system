@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+</head>
+<body>
+
+<form id="from" action="http://localhost:8888/YiXiYu-web/RLServlet" method="post">
+    <table>
+        <tr><td>电话</td><td><input type="tel" name="customer_phone"></td></tr>
+        <tr><td>新密码</td><td><input type="password" name="customer_password"></td></tr>
+        <tr style="display: none"><td>方法</td><td><input type="text" name="action" value="ForgetPassword"></td></tr>
+        <tr><td colspan="2" align="center"><input type="submit"  value="确定"></td></tr>
+    </table>
+</form>
+
+</body>
+</html>

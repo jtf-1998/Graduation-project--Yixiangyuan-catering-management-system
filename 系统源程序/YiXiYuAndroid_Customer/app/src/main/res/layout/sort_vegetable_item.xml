@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vegetable_item_click"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/vegetable_item_click"
+        android:clickable="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/photo_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/photo"
+                    android:layout_width="@dimen/list_image_width"
+                    android:layout_height="@dimen/list_image_heigh"
+                    android:layerType="software"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/default_list_pic"/>
+
+                <ImageView
+                    android:id="@+id/iv_icon2"
+                    android:layout_width="@dimen/list_image_width"
+                    android:layout_height="@dimen/list_image_heigh"
+                    android:layerType="software"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/pic_b"/>
+
+                <ImageView
+                    android:id="@+id/appoitment_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="1.8999939dip"
+                    android:layout_marginTop="1.8999939dip"
+                    android:layerType="software"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/appointment_img"/>
+            </FrameLayout>
+
+            <ProgressBar
+                android:id="@+id/loading"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/progressbar"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="0.5mm"
+                        android:textSize="12.0sp"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/name_type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="6.0dip"
+                        android:layout_toLeftOf="@id/tv_distance"
+                        android:layout_weight="1.0"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="翅中虾大"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/tv_product_size"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3.0dip">
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/fresh_order_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2.0dip">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/fresh_order_img"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginRight="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/remark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:text="翅中虾大锅()"
+                    android:textColor="@color/black"
+                    android:textSize="13.0sp"/>
+
+                <RatingBar
+                    android:id="@+id/comment_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:clickable="false"
+                    android:isIndicator="true"
+                    android:maxHeight="11.0dip"
+                    android:minHeight="11.0dip"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/level_star"
+                    android:rating="3.5"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="0.0"
+                    android:text="128"
+                    android:textColor="@color/orange"
+                    android:textSize="14.0sp"/>
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="1份"
+                    android:textColor="@color/black"
+                    android:textSize="12.0sp"/>
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="7.0dip"
+                    android:layout_weight="0.0"
+                    android:ellipsize="end"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text="200rre"
+                    android:textColor="@color/gray"
+                    android:textSize="12.0sp"/>
+
+                <TextView
+                    android:id="@+id/area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7.0dip"
+                    android:drawableLeft="@mipmap/area"
+                    android:ellipsize="end"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text="150 m"
+                    android:textColor="@color/gray"
+                    android:textSize="12.0sp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- xmlns:myradio="http://schemas.android.com/apk/res/com.hanbang.old_baby" -->
+    <declare-styleable name="MyRadioButton">
+        <attr name="drawableSize" format="dimension"></attr>
+        <attr name="drawableTop" format="reference"></attr>
+        <attr name="drawableBottom" format="reference"></attr>
+        <attr name="drawableRight" format="reference"></attr>
+        <attr name="drawableLeft" format="reference"></attr>
+    </declare-styleable>
+    <!-- ScaleImageView -->
+
+    <declare-styleable name="ScaleImageView">
+        <attr name="widthScale" format="integer"></attr>
+        <attr name="heightScale" format="integer"></attr>
+        <attr name="primary">
+            <enum name="width" value="1" />
+            <enum name="height" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ColoredRatingBar">
+        <attr name="indicator" format="boolean" />
+        <attr name="rating" format="float" />
+        <attr name="starEmpty" format="integer" />
+        <attr name="starFill" format="integer" />
+        <attr name="starImageSize" format="dimension" />
+        <attr name="coloredRatingBarStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="NumberSelectView">
+        <attr name="textSize" format="dimension" />
+        <attr name="dimenSize" format="dimension" />
+        <attr name="lineSize" format="dimension" />
+        <attr name="centreColor" format="color" />
+        <attr name="buttonTextColor" format="color" />
+        <attr name="centreTextColor" format="color" />
+        <attr name="lineColor" format="color" />
+    </declare-styleable>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+</resources>

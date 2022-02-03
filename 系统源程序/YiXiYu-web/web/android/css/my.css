@@ -1,0 +1,53 @@
+.jsbridge {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.upimg {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+.qr-btn{
+    width:200px;
+    height:50px;
+    background-color:#FF0B0C; ;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    border-radius: 10%  10%;
+    margin-bottom:10px;
+    position: absolute;
+    left: 40%;
+}
+
+#bt_ok{
+    height: 10%;
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    text-align: center;
+    left: 40%;
+    background: -webkit-linear-gradient(left, #FF0B0C , #FF4837);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #FF0B0C , #FF4837);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #FF0B0C , #FF4837);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #FF0B0C , #FF4837);
+    /* 标准的语法 */
+    background-color: #FF0B0C;
+    border-radius: 22px;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 9px #fddae1;
+    line-height: normal;
+    font-size: inherit;
+}
+
+input[node-type=jsbridge]{
+    visibility: hidden;
+}

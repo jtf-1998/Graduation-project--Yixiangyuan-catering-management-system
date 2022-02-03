@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="0.0" android:toDegrees="360.0" android:pivotX="50.0%" android:pivotY="50.0%"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="ring" android:innerRadiusRatio="5.0" android:thicknessRatio="8.0" android:useLevel="false">
+        <gradient android:startColor="@color/blue" android:endColor="@color/blue2" android:useLevel="false" android:type="sweep" android:centerY="0.5" android:centerColor="@color/sky_blue" />
+    </shape>
+</rotate>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+<!--&lt;!&ndash;    <item android:id="@android:id/background">&ndash;&gt;-->
+<!--&lt;!&ndash;        <shape>&ndash;&gt;-->
+<!--&lt;!&ndash;            <corners android:radius="10dp" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <solid android:color="@color/gray_cc" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </shape>&ndash;&gt;-->
+<!--&lt;!&ndash;    </item>&ndash;&gt;-->
+<!--    <item android:id="@android:id/progress" android:fromDegrees="0.0" android:toDegrees="360.0" android:pivotX="50.0%" android:pivotY="50.0%">-->
+<!--        <clip>-->
+<!--            <shape android:shape="ring" android:innerRadiusRatio="5.0" android:thicknessRatio="8.0" android:useLevel="false">-->
+<!--                <gradient android:startColor="@color/blue" android:endColor="@color/blue2" android:useLevel="false" android:type="sweep" android:centerY="0.5" android:centerColor="@color/sky_blue" />-->
+<!--            </shape>-->
+<!--        </clip>-->
+<!--    </item>-->
+
+<!--</layer-list>-->

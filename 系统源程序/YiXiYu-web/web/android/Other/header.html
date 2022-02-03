@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部</title>
+    <style type="text/css">
+        header {
+            height: 50px;
+            line-height: 50px;
+            background-color: #FF0B0C;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 99;
+        }
+        header .location {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: white;
+            padding: 12.5px;
+            margin-left: 3%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 0;
+        }
+        header .location img {
+            width: 25px;
+        }
+        .flex-col {
+            display: block;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+            width: 62%;
+            margin-left: 21%;
+            background-color: #fff;
+            margin: 10px auto 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .top-sch-box {
+            height: 2rem;
+            padding: 0 .8rem;
+            font-size: .36rem;
+            color: #999999;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+        }
+        .index-searchArea .input-text-searchArea {
+            width: 90%;
+            height: 2rem;
+            outline: none;
+            border: none;
+            float: left;
+            font-size: 1rem;
+            line-height: 0.5rem;
+            padding-left: .3rem;
+        }
+        input {
+            color: inherit;
+            font: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            margin: 0;
+        }
+        .input-searchBtn[type="button"] {
+            font-family: 'freshregular';
+            background: none;
+            border: none;
+            color: grey;
+            position: absolute;
+            left: -30px;
+            top: -9px;
+            outline: none;
+            font-size: .45rem;
+        }
+        .index-searchArea .input-searchBtn {
+            width: 9%;
+            color: #000;
+            float: right;
+            position: absolute;
+            right: 3%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        * {
+            font-family: "微软雅黑";
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        @font-face {
+            font-family:'freshregular';
+            src:url('../css/fonts/fresh-webfont.woff') format('woff'),
+            url('../css/fonts/fresh-webfont.ttf') format('truetype'),
+            url('../css/fonts/fresh-webfont.svg#freshregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+
+<!--header-->
+<header >
+    <a href="../Main/scanCode.html" class="location" id="location" data-title-type="native" style="display: flex;align-items: center">
+        <img src="../images/scan.png" style="align-items: center;" />
+    </a>
+
+    <div class="top-sch-box flex-col logoIcon">
+        <a>
+            <!--<ul>-->
+                <!--<li>扫码点菜</li>-->
+            <!--</ul>-->
+            <aside class="index-searchArea">
+                <input class="input-text-searchArea" type="text" placeholder="请输入餐品" />
+                <input type="button" value="&#63;" class="input-searchBtn" />
+            </aside>
+        </a>
+    </div>
+</header>
+</body>
+</html>

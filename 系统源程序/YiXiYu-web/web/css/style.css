@@ -1,0 +1,74 @@
+html {
+  overflow-x: hidden; }
+
+body {
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.7;
+  color: #6f6f6f; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none; }
+
+h1 {
+  line-height: 1.5;
+  font-weight: normal;
+  color: #000; }
+
+.bg-image, .probootstrap-cover, .probootstrap-img-item > div, .probootstrap-section-feature {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.probootstrap-cover {
+  background-image: url(../img/cover_bg.svg);
+  background-position: center center; }
+  .probootstrap-cover .probootstrap-text .probootstrap-heading {
+    font-size: 70px;
+    line-height: 1; }
+  .probootstrap-cover .probootstrap-text .probootstrap-subheading p {
+    color: rgba(255, 255, 255, 0.5); }
+  @media screen and (max-width: 768px) {
+    .probootstrap-cover .btn {
+      width: 100% !important;
+      border: 1px solid red; } }
+
+.btn {
+  border-radius: 40px;
+  padding: 20px 30px;
+  font-size: 14px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer; }
+  .btn:hover, .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .btn.btn-primary {
+    background: #28CC9E;
+    border-color: #28CC9E;
+    color: #fff; }
+    .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+      background: #4bdcb3; }
+
+.probootstrap-vh-100 {
+  height: 100vh; }
+  @media screen and (max-width: 768px) {
+    .probootstrap-vh-100 {
+      height: inherit;
+      padding-top: 5em;
+      padding-bottom: 5em; } }
+
+
+
+
+
+
+
+
+
+

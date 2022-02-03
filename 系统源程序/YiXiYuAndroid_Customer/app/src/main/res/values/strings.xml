@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">溢香园火锅店客户端</string>
+
+    <string name="no_login">您未登录，请先登录!</string>
+    <string name="loadding">  加载中...</string>
+    <string name="commit">  提交中...</string>
+    <string name="no_more_data">  没有更多数据可以加载</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="botton_bar_text1">扫一扫</string>
+    <string name="botton_bar_text2">菜单</string>
+    <string name="botton_bar_text3">预订</string>
+    <string name="botton_bar_text4">订单</string>
+    <string name="botton_bar_text5">我的</string>
+    <string name="user_login">用户登录</string>
+    <string name="user_login_register">注册</string>
+    <string name="user_login_phone_num">请输入手机号</string>
+    <string name="user_login_password">请输入密码</string>
+    <string name="user_login_forget_password">忘记密码</string>
+    <string name="user_login_now">立即登录</string>
+    <string name="user_register">用户注册</string>
+    <string name="user_register_pet_name">昵称&#160;:&#160;</string>
+    <string name="user_register_pet_name_edittext">请设置昵称</string>
+    <string name="user_register_phone_num">手机号&#160;:&#160;</string>
+    <string name="user_register_phone_num_edittext">请输入手机号</string>
+    <string name="user_register_auth_code">验证码&#160;:&#160;</string>
+    <string name="user_register_auth_code_edittext">请输入短信验证码</string>
+    <string name="user_register_sex">&#160;&#160;性&#160;别&#160;:&#160;</string>
+    <string name="user_register_sex_man">&#160;&#160;男&#160;&#160;</string>
+    <string name="user_register_sex_woman">&#160;&#160;女&#160;&#160;</string>
+    <string name="user_register_password">密码&#160;:&#160;</string>
+    <string name="user_register_password_edittext">请输入6位以上密码</string>
+    <string name="user_register_again_password">确认密码&#160;:&#160;</string>
+    <string name="user_register_again_password_edittext">请再次输入6位以上密码</string>
+    <string name="user_register_register_now">立即注册</string>
+    <string name="user_register_send_auth_code">发送验证码</string>
+    <string name="user_register_agree">我同意溢香园餐饮</string>
+    <string name="user_register_agree_2">点击查看注册协议</string>
+    <string name="user_register_service_contract">注册协议</string>
+    <string name="lunbo">轮播</string>
+    <string name="password_type">._qwertyuiopasdfghjklzxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM0123456789</string>
+    <string name="money_type">.0123456789</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_scan_bt">扫一扫</string>
+    <string name="fragment_scan_tv">扫码点菜</string>
+    <string name="fragment_order_restaurant_text">餐厅名称&#160;:&#160;</string>
+    <string name="fragment_order_restaurant_enter">溢香园火锅店(白银市平川区)</string>
+    <string name="fragment_order_room_text">包&#160;&#160;间&#160;:&#160;</string>
+    <string name="fragment_order_room_enter">包间选择</string>
+    <string name="fragment_order_dtime_text">时&#160;&#160;间&#160;:&#160;</string>
+    <string name="fragment_order_dtime_enter">请选择时间</string>
+    <string name="fragment_order_cust_num_text">大概人数&#160;:&#160;</string>
+    <string name="fragment_order_cust_num_enter">请选择人数</string>
+    <string name="fragment_order_cust_griddle_text">预订干/汤锅(可选)&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;</string>
+    <string name="fragment_order_cust_griddle_enter">请选择预订的干锅或汤锅</string>
+    <string name="fragment_order_cust_griddle_tv">锅底选择</string>
+    <string name="fragment_order_bt1">确定</string>
+    <string name="fragment_order_bt2">外卖订餐</string>
+    <string name="fragment_order_bt3">查询预订单</string>
+    <string name="fragment_order_bt4">修改预订单</string>
+    <string name="fragment_order_bt5">删除预订单</string>
+    <string name="date_picker_text">请选择日期</string>
+    <string name="time_picker_text">请选择时间</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="sex_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+</resources>
+

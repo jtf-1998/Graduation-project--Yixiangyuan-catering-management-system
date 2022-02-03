@@ -1,0 +1,5310 @@
+body {
+  overflow-x: hidden;
+  background-image: linear-gradient(120deg, rgba(224, 195, 252, 0.75) 0%, rgba(142, 197, 252, 0.75) 100%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  filter: url("#goo");
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+@-moz-keyframes float {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(180px);
+  }
+}
+@-webkit-keyframes float {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(180px);
+  }
+}
+@keyframes float {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(180px);
+  }
+}
+@-moz-keyframes floatReverse {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-180px);
+  }
+}
+@-webkit-keyframes floatReverse {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-180px);
+  }
+}
+@keyframes floatReverse {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-180px);
+  }
+}
+@-moz-keyframes float2 {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(280px);
+  }
+}
+@-webkit-keyframes float2 {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(280px);
+  }
+}
+@keyframes float2 {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(280px);
+  }
+}
+@-moz-keyframes floatReverse2 {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-280px);
+  }
+}
+@-webkit-keyframes floatReverse2 {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-280px);
+  }
+}
+@keyframes floatReverse2 {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-280px);
+  }
+}
+.particle:nth-child(1) {
+  height: 12px;
+  width: 12px;
+  left: 42%;
+  top: 69%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 24s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(2) {
+  height: 21px;
+  width: 21px;
+  left: 9%;
+  top: 40%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 37s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(3) {
+  height: 13px;
+  width: 13px;
+  left: 56%;
+  top: 93%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(4) {
+  height: 25px;
+  width: 25px;
+  left: 92%;
+  top: 1%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(5) {
+  height: 20px;
+  width: 20px;
+  left: 90%;
+  top: 96%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(6) {
+  height: 18px;
+  width: 18px;
+  left: 1%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(7) {
+  height: 21px;
+  width: 21px;
+  left: 96%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 31s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(8) {
+  height: 20px;
+  width: 20px;
+  left: 100%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 31s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(9) {
+  height: 22px;
+  width: 22px;
+  left: 7%;
+  top: 64%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 29s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(10) {
+  height: 21px;
+  width: 21px;
+  left: 65%;
+  top: 98%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 35s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(11) {
+  height: 16px;
+  width: 16px;
+  left: 24%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 38s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(12) {
+  height: 22px;
+  width: 22px;
+  left: 9%;
+  top: 30%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 36s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(13) {
+  height: 23px;
+  width: 23px;
+  left: 37%;
+  top: 82%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 28s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(14) {
+  height: 17px;
+  width: 17px;
+  left: 67%;
+  top: 56%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(15) {
+  height: 12px;
+  width: 12px;
+  left: 100%;
+  top: 24%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 38s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(16) {
+  height: 17px;
+  width: 17px;
+  left: 26%;
+  top: 59%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 32s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(17) {
+  height: 12px;
+  width: 12px;
+  left: 96%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(18) {
+  height: 21px;
+  width: 21px;
+  left: 13%;
+  top: 74%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 36s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(19) {
+  height: 24px;
+  width: 24px;
+  left: 12%;
+  top: 4%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 35s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(20) {
+  height: 17px;
+  width: 17px;
+  left: 12%;
+  top: 46%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 21s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(21) {
+  height: 19px;
+  width: 19px;
+  left: 26%;
+  top: 11%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 29s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(22) {
+  height: 21px;
+  width: 21px;
+  left: 5%;
+  top: 19%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 30s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(23) {
+  height: 24px;
+  width: 24px;
+  left: 66%;
+  top: 4%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 32s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(24) {
+  height: 18px;
+  width: 18px;
+  left: 93%;
+  top: 98%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 38s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(25) {
+  height: 19px;
+  width: 19px;
+  left: 84%;
+  top: 97%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 31s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(26) {
+  height: 20px;
+  width: 20px;
+  left: 77%;
+  top: 26%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 34s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(27) {
+  height: 17px;
+  width: 17px;
+  left: 1%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 32s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(28) {
+  height: 18px;
+  width: 18px;
+  left: 57%;
+  top: 24%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 40s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(29) {
+  height: 20px;
+  width: 20px;
+  left: 15%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(30) {
+  height: 16px;
+  width: 16px;
+  left: 97%;
+  top: 71%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(31) {
+  height: 23px;
+  width: 23px;
+  left: 50%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 39s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(32) {
+  height: 16px;
+  width: 16px;
+  left: 6%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 23s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(33) {
+  height: 18px;
+  width: 18px;
+  left: 14%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 21s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(34) {
+  height: 16px;
+  width: 16px;
+  left: 95%;
+  top: 46%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 36s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(35) {
+  height: 15px;
+  width: 15px;
+  left: 30%;
+  top: 77%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 40s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(36) {
+  height: 20px;
+  width: 20px;
+  left: 41%;
+  top: 40%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 36s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(37) {
+  height: 18px;
+  width: 18px;
+  left: 76%;
+  top: 16%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(38) {
+  height: 16px;
+  width: 16px;
+  left: 75%;
+  top: 62%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(39) {
+  height: 14px;
+  width: 14px;
+  left: 69%;
+  top: 20%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 22s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(40) {
+  height: 18px;
+  width: 18px;
+  left: 90%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(41) {
+  height: 12px;
+  width: 12px;
+  left: 69%;
+  top: 65%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(42) {
+  height: 25px;
+  width: 25px;
+  left: 4%;
+  top: 19%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 28s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(43) {
+  height: 16px;
+  width: 16px;
+  left: 66%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 34s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(44) {
+  height: 19px;
+  width: 19px;
+  left: 90%;
+  top: 35%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 27s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(45) {
+  height: 13px;
+  width: 13px;
+  left: 47%;
+  top: 60%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(46) {
+  height: 18px;
+  width: 18px;
+  left: 10%;
+  top: 95%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 25s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(47) {
+  height: 17px;
+  width: 17px;
+  left: 96%;
+  top: 97%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 39s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(48) {
+  height: 24px;
+  width: 24px;
+  left: 14%;
+  top: 72%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 38s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(49) {
+  height: 15px;
+  width: 15px;
+  left: 32%;
+  top: 4%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 27s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(50) {
+  height: 17px;
+  width: 17px;
+  left: 96%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 21s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(51) {
+  height: 24px;
+  width: 24px;
+  left: 9%;
+  top: 60%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 34s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(52) {
+  height: 16px;
+  width: 16px;
+  left: 90%;
+  top: 48%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 38s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(53) {
+  height: 18px;
+  width: 18px;
+  left: 60%;
+  top: 71%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 31s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(54) {
+  height: 21px;
+  width: 21px;
+  left: 47%;
+  top: 27%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 27s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(55) {
+  height: 14px;
+  width: 14px;
+  left: 10%;
+  top: 88%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 31s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(56) {
+  height: 16px;
+  width: 16px;
+  left: 14%;
+  top: 8%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 21s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(57) {
+  height: 24px;
+  width: 24px;
+  left: 83%;
+  top: 80%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 30s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(58) {
+  height: 14px;
+  width: 14px;
+  left: 52%;
+  top: 27%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 31s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(59) {
+  height: 20px;
+  width: 20px;
+  left: 91%;
+  top: 34%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 40s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(60) {
+  height: 24px;
+  width: 24px;
+  left: 50%;
+  top: 63%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 33s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(61) {
+  height: 15px;
+  width: 15px;
+  left: 98%;
+  top: 95%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 38s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(62) {
+  height: 12px;
+  width: 12px;
+  left: 94%;
+  top: 17%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(63) {
+  height: 13px;
+  width: 13px;
+  left: 97%;
+  top: 37%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 35s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(64) {
+  height: 23px;
+  width: 23px;
+  left: 57%;
+  top: 62%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(65) {
+  height: 21px;
+  width: 21px;
+  left: 66%;
+  top: 94%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(66) {
+  height: 21px;
+  width: 21px;
+  left: 64%;
+  top: 84%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 37s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(67) {
+  height: 18px;
+  width: 18px;
+  left: 25%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 28s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(68) {
+  height: 23px;
+  width: 23px;
+  left: 27%;
+  top: 63%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 26s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(69) {
+  height: 21px;
+  width: 21px;
+  left: 36%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 23s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(70) {
+  height: 13px;
+  width: 13px;
+  left: 82%;
+  top: 22%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 26s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(71) {
+  height: 22px;
+  width: 22px;
+  left: 25%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 31s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(72) {
+  height: 20px;
+  width: 20px;
+  left: 53%;
+  top: 44%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 34s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(73) {
+  height: 19px;
+  width: 19px;
+  left: 78%;
+  top: 23%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 38s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(74) {
+  height: 13px;
+  width: 13px;
+  left: 30%;
+  top: 24%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 40s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(75) {
+  height: 25px;
+  width: 25px;
+  left: 54%;
+  top: 52%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 33s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(76) {
+  height: 11px;
+  width: 11px;
+  left: 50%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(77) {
+  height: 19px;
+  width: 19px;
+  left: 63%;
+  top: 39%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 24s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(78) {
+  height: 24px;
+  width: 24px;
+  left: 22%;
+  top: 7%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 26s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(79) {
+  height: 24px;
+  width: 24px;
+  left: 37%;
+  top: 61%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 36s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(80) {
+  height: 18px;
+  width: 18px;
+  left: 92%;
+  top: 56%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 27s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(81) {
+  height: 13px;
+  width: 13px;
+  left: 75%;
+  top: 28%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 35s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(82) {
+  height: 17px;
+  width: 17px;
+  left: 82%;
+  top: 98%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 35s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(83) {
+  height: 22px;
+  width: 22px;
+  left: 31%;
+  top: 15%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(84) {
+  height: 12px;
+  width: 12px;
+  left: 68%;
+  top: 52%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 21s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(85) {
+  height: 13px;
+  width: 13px;
+  left: 70%;
+  top: 29%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(86) {
+  height: 20px;
+  width: 20px;
+  left: 53%;
+  top: 20%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(87) {
+  height: 24px;
+  width: 24px;
+  left: 14%;
+  top: 69%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 38s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(88) {
+  height: 19px;
+  width: 19px;
+  left: 3%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(89) {
+  height: 25px;
+  width: 25px;
+  left: 36%;
+  top: 98%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(90) {
+  height: 24px;
+  width: 24px;
+  left: 26%;
+  top: 88%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 31s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(91) {
+  height: 12px;
+  width: 12px;
+  left: 52%;
+  top: 95%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(92) {
+  height: 15px;
+  width: 15px;
+  left: 54%;
+  top: 54%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 32s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(93) {
+  height: 15px;
+  width: 15px;
+  left: 9%;
+  top: 21%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 24s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(94) {
+  height: 16px;
+  width: 16px;
+  left: 86%;
+  top: 19%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 27s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(95) {
+  height: 25px;
+  width: 25px;
+  left: 14%;
+  top: 28%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(96) {
+  height: 18px;
+  width: 18px;
+  left: 97%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 28s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(97) {
+  height: 18px;
+  width: 18px;
+  left: 83%;
+  top: 23%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 32s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(98) {
+  height: 24px;
+  width: 24px;
+  left: 91%;
+  top: 10%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 40s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(99) {
+  height: 14px;
+  width: 14px;
+  left: 72%;
+  top: 3%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 23s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(100) {
+  height: 22px;
+  width: 22px;
+  left: 81%;
+  top: 24%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 31s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(101) {
+  height: 23px;
+  width: 23px;
+  left: 7%;
+  top: 23%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 22s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(102) {
+  height: 14px;
+  width: 14px;
+  left: 39%;
+  top: 38%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 21s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(103) {
+  height: 24px;
+  width: 24px;
+  left: 50%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(104) {
+  height: 25px;
+  width: 25px;
+  left: 41%;
+  top: 10%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 25s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(105) {
+  height: 11px;
+  width: 11px;
+  left: 8%;
+  top: 74%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 28s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(106) {
+  height: 13px;
+  width: 13px;
+  left: 78%;
+  top: 85%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 23s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(107) {
+  height: 20px;
+  width: 20px;
+  left: 55%;
+  top: 58%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(108) {
+  height: 23px;
+  width: 23px;
+  left: 94%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 29s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(109) {
+  height: 16px;
+  width: 16px;
+  left: 29%;
+  top: 39%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 30s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(110) {
+  height: 24px;
+  width: 24px;
+  left: 49%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 39s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(111) {
+  height: 19px;
+  width: 19px;
+  left: 100%;
+  top: 9%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 22s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(112) {
+  height: 22px;
+  width: 22px;
+  left: 43%;
+  top: 26%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 27s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(113) {
+  height: 16px;
+  width: 16px;
+  left: 22%;
+  top: 35%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(114) {
+  height: 11px;
+  width: 11px;
+  left: 71%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 29s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(115) {
+  height: 17px;
+  width: 17px;
+  left: 18%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 32s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(116) {
+  height: 22px;
+  width: 22px;
+  left: 51%;
+  top: 26%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 37s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(117) {
+  height: 12px;
+  width: 12px;
+  left: 53%;
+  top: 51%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 37s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(118) {
+  height: 11px;
+  width: 11px;
+  left: 67%;
+  top: 36%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(119) {
+  height: 11px;
+  width: 11px;
+  left: 36%;
+  top: 47%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 30s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(120) {
+  height: 12px;
+  width: 12px;
+  left: 54%;
+  top: 94%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(121) {
+  height: 15px;
+  width: 15px;
+  left: 9%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(122) {
+  height: 14px;
+  width: 14px;
+  left: 46%;
+  top: 88%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 33s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(123) {
+  height: 16px;
+  width: 16px;
+  left: 54%;
+  top: 8%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(124) {
+  height: 11px;
+  width: 11px;
+  left: 57%;
+  top: 84%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 28s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(125) {
+  height: 20px;
+  width: 20px;
+  left: 74%;
+  top: 5%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(126) {
+  height: 12px;
+  width: 12px;
+  left: 98%;
+  top: 27%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(127) {
+  height: 16px;
+  width: 16px;
+  left: 5%;
+  top: 1%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 36s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(128) {
+  height: 25px;
+  width: 25px;
+  left: 30%;
+  top: 20%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 24s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(129) {
+  height: 11px;
+  width: 11px;
+  left: 55%;
+  top: 9%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(130) {
+  height: 19px;
+  width: 19px;
+  left: 51%;
+  top: 82%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 39s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(131) {
+  height: 20px;
+  width: 20px;
+  left: 87%;
+  top: 29%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 32s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(132) {
+  height: 13px;
+  width: 13px;
+  left: 55%;
+  top: 13%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(133) {
+  height: 13px;
+  width: 13px;
+  left: 25%;
+  top: 31%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(134) {
+  height: 24px;
+  width: 24px;
+  left: 53%;
+  top: 64%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(135) {
+  height: 22px;
+  width: 22px;
+  left: 33%;
+  top: 81%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 22s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(136) {
+  height: 17px;
+  width: 17px;
+  left: 81%;
+  top: 93%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 34s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(137) {
+  height: 15px;
+  width: 15px;
+  left: 29%;
+  top: 21%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 29s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(138) {
+  height: 17px;
+  width: 17px;
+  left: 86%;
+  top: 67%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(139) {
+  height: 23px;
+  width: 23px;
+  left: 96%;
+  top: 56%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 36s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(140) {
+  height: 19px;
+  width: 19px;
+  left: 22%;
+  top: 6%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 38s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(141) {
+  height: 21px;
+  width: 21px;
+  left: 69%;
+  top: 49%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 39s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(142) {
+  height: 25px;
+  width: 25px;
+  left: 92%;
+  top: 41%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 32s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(143) {
+  height: 25px;
+  width: 25px;
+  left: 44%;
+  top: 14%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 28s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(144) {
+  height: 24px;
+  width: 24px;
+  left: 97%;
+  top: 31%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 22s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(145) {
+  height: 20px;
+  width: 20px;
+  left: 32%;
+  top: 84%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 39s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(146) {
+  height: 11px;
+  width: 11px;
+  left: 10%;
+  top: 29%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(147) {
+  height: 15px;
+  width: 15px;
+  left: 89%;
+  top: 62%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 28s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(148) {
+  height: 16px;
+  width: 16px;
+  left: 48%;
+  top: 73%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 31s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(149) {
+  height: 25px;
+  width: 25px;
+  left: 92%;
+  top: 55%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 39s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(150) {
+  height: 18px;
+  width: 18px;
+  left: 5%;
+  top: 94%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 23s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(151) {
+  height: 22px;
+  width: 22px;
+  left: 26%;
+  top: 27%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 23s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(152) {
+  height: 17px;
+  width: 17px;
+  left: 24%;
+  top: 93%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 21s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(153) {
+  height: 21px;
+  width: 21px;
+  left: 1%;
+  top: 15%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 36s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(154) {
+  height: 22px;
+  width: 22px;
+  left: 57%;
+  top: 89%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 35s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(155) {
+  height: 19px;
+  width: 19px;
+  left: 55%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 36s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(156) {
+  height: 18px;
+  width: 18px;
+  left: 50%;
+  top: 34%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(157) {
+  height: 25px;
+  width: 25px;
+  left: 86%;
+  top: 39%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 27s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(158) {
+  height: 19px;
+  width: 19px;
+  left: 30%;
+  top: 34%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 22s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(159) {
+  height: 15px;
+  width: 15px;
+  left: 36%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 39s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(160) {
+  height: 15px;
+  width: 15px;
+  left: 21%;
+  top: 8%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 40s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(161) {
+  height: 25px;
+  width: 25px;
+  left: 81%;
+  top: 100%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(162) {
+  height: 19px;
+  width: 19px;
+  left: 43%;
+  top: 27%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(163) {
+  height: 16px;
+  width: 16px;
+  left: 97%;
+  top: 93%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 27s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(164) {
+  height: 11px;
+  width: 11px;
+  left: 27%;
+  top: 4%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 35s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(165) {
+  height: 23px;
+  width: 23px;
+  left: 93%;
+  top: 92%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 23s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(166) {
+  height: 23px;
+  width: 23px;
+  left: 13%;
+  top: 22%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(167) {
+  height: 15px;
+  width: 15px;
+  left: 12%;
+  top: 96%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 30s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(168) {
+  height: 22px;
+  width: 22px;
+  left: 35%;
+  top: 13%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 27s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(169) {
+  height: 16px;
+  width: 16px;
+  left: 13%;
+  top: 57%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 27s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(170) {
+  height: 23px;
+  width: 23px;
+  left: 71%;
+  top: 50%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 34s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(171) {
+  height: 19px;
+  width: 19px;
+  left: 74%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 40s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(172) {
+  height: 14px;
+  width: 14px;
+  left: 90%;
+  top: 72%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 40s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(173) {
+  height: 14px;
+  width: 14px;
+  left: 11%;
+  top: 62%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 28s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(174) {
+  height: 13px;
+  width: 13px;
+  left: 2%;
+  top: 5%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 30s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(175) {
+  height: 19px;
+  width: 19px;
+  left: 82%;
+  top: 81%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(176) {
+  height: 16px;
+  width: 16px;
+  left: 59%;
+  top: 52%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(177) {
+  height: 14px;
+  width: 14px;
+  left: 51%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 31s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(178) {
+  height: 16px;
+  width: 16px;
+  left: 70%;
+  top: 100%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(179) {
+  height: 17px;
+  width: 17px;
+  left: 96%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 38s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(180) {
+  height: 21px;
+  width: 21px;
+  left: 43%;
+  top: 97%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 39s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(181) {
+  height: 23px;
+  width: 23px;
+  left: 95%;
+  top: 82%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 36s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(182) {
+  height: 13px;
+  width: 13px;
+  left: 36%;
+  top: 19%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 28s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(183) {
+  height: 25px;
+  width: 25px;
+  left: 34%;
+  top: 92%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 33s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(184) {
+  height: 21px;
+  width: 21px;
+  left: 55%;
+  top: 91%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 30s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(185) {
+  height: 23px;
+  width: 23px;
+  left: 6%;
+  top: 10%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(186) {
+  height: 23px;
+  width: 23px;
+  left: 40%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 21s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(187) {
+  height: 14px;
+  width: 14px;
+  left: 89%;
+  top: 14%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(188) {
+  height: 25px;
+  width: 25px;
+  left: 27%;
+  top: 98%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 38s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(189) {
+  height: 22px;
+  width: 22px;
+  left: 68%;
+  top: 44%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(190) {
+  height: 11px;
+  width: 11px;
+  left: 12%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 29s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(191) {
+  height: 20px;
+  width: 20px;
+  left: 19%;
+  top: 63%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(192) {
+  height: 18px;
+  width: 18px;
+  left: 65%;
+  top: 92%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 40s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(193) {
+  height: 14px;
+  width: 14px;
+  left: 51%;
+  top: 35%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 35s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(194) {
+  height: 23px;
+  width: 23px;
+  left: 63%;
+  top: 82%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 34s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(195) {
+  height: 18px;
+  width: 18px;
+  left: 4%;
+  top: 65%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(196) {
+  height: 18px;
+  width: 18px;
+  left: 71%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 30s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(197) {
+  height: 13px;
+  width: 13px;
+  left: 59%;
+  top: 55%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 23s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(198) {
+  height: 24px;
+  width: 24px;
+  left: 13%;
+  top: 16%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 38s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(199) {
+  height: 18px;
+  width: 18px;
+  left: 16%;
+  top: 41%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(200) {
+  height: 20px;
+  width: 20px;
+  left: 68%;
+  top: 22%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(201) {
+  height: 19px;
+  width: 19px;
+  left: 8%;
+  top: 1%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 29s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(202) {
+  height: 15px;
+  width: 15px;
+  left: 75%;
+  top: 100%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 30s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(203) {
+  height: 18px;
+  width: 18px;
+  left: 72%;
+  top: 91%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 24s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(204) {
+  height: 16px;
+  width: 16px;
+  left: 54%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 35s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(205) {
+  height: 18px;
+  width: 18px;
+  left: 31%;
+  top: 96%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(206) {
+  height: 21px;
+  width: 21px;
+  left: 64%;
+  top: 99%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 33s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(207) {
+  height: 16px;
+  width: 16px;
+  left: 77%;
+  top: 89%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 31s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(208) {
+  height: 23px;
+  width: 23px;
+  left: 4%;
+  top: 8%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 36s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(209) {
+  height: 14px;
+  width: 14px;
+  left: 42%;
+  top: 30%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 33s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(210) {
+  height: 16px;
+  width: 16px;
+  left: 86%;
+  top: 24%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(211) {
+  height: 13px;
+  width: 13px;
+  left: 96%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(212) {
+  height: 22px;
+  width: 22px;
+  left: 86%;
+  top: 54%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 21s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(213) {
+  height: 19px;
+  width: 19px;
+  left: 77%;
+  top: 76%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 35s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(214) {
+  height: 14px;
+  width: 14px;
+  left: 54%;
+  top: 47%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 23s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(215) {
+  height: 19px;
+  width: 19px;
+  left: 61%;
+  top: 47%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 33s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(216) {
+  height: 21px;
+  width: 21px;
+  left: 65%;
+  top: 26%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 22s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(217) {
+  height: 22px;
+  width: 22px;
+  left: 46%;
+  top: 39%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(218) {
+  height: 23px;
+  width: 23px;
+  left: 41%;
+  top: 59%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(219) {
+  height: 22px;
+  width: 22px;
+  left: 39%;
+  top: 17%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(220) {
+  height: 13px;
+  width: 13px;
+  left: 11%;
+  top: 63%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 34s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(221) {
+  height: 19px;
+  width: 19px;
+  left: 21%;
+  top: 45%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 34s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(222) {
+  height: 17px;
+  width: 17px;
+  left: 40%;
+  top: 39%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 39s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(223) {
+  height: 12px;
+  width: 12px;
+  left: 43%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 27s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(224) {
+  height: 12px;
+  width: 12px;
+  left: 35%;
+  top: 84%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 26s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(225) {
+  height: 21px;
+  width: 21px;
+  left: 69%;
+  top: 28%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(226) {
+  height: 21px;
+  width: 21px;
+  left: 78%;
+  top: 36%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 29s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(227) {
+  height: 16px;
+  width: 16px;
+  left: 82%;
+  top: 20%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 29s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(228) {
+  height: 20px;
+  width: 20px;
+  left: 45%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 31s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(229) {
+  height: 13px;
+  width: 13px;
+  left: 28%;
+  top: 37%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 22s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(230) {
+  height: 25px;
+  width: 25px;
+  left: 72%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 28s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(231) {
+  height: 12px;
+  width: 12px;
+  left: 81%;
+  top: 8%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 27s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(232) {
+  height: 16px;
+  width: 16px;
+  left: 53%;
+  top: 21%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 22s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(233) {
+  height: 18px;
+  width: 18px;
+  left: 62%;
+  top: 96%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 25s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(234) {
+  height: 15px;
+  width: 15px;
+  left: 41%;
+  top: 3%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 27s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(235) {
+  height: 13px;
+  width: 13px;
+  left: 74%;
+  top: 46%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 23s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(236) {
+  height: 16px;
+  width: 16px;
+  left: 60%;
+  top: 88%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 37s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(237) {
+  height: 24px;
+  width: 24px;
+  left: 7%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 32s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(238) {
+  height: 11px;
+  width: 11px;
+  left: 63%;
+  top: 7%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 27s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(239) {
+  height: 18px;
+  width: 18px;
+  left: 41%;
+  top: 22%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(240) {
+  height: 14px;
+  width: 14px;
+  left: 87%;
+  top: 5%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 34s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(241) {
+  height: 19px;
+  width: 19px;
+  left: 43%;
+  top: 36%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(242) {
+  height: 13px;
+  width: 13px;
+  left: 93%;
+  top: 38%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(243) {
+  height: 20px;
+  width: 20px;
+  left: 91%;
+  top: 25%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 33s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(244) {
+  height: 16px;
+  width: 16px;
+  left: 96%;
+  top: 81%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(245) {
+  height: 16px;
+  width: 16px;
+  left: 55%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 22s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(246) {
+  height: 13px;
+  width: 13px;
+  left: 62%;
+  top: 14%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(247) {
+  height: 12px;
+  width: 12px;
+  left: 100%;
+  top: 63%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(248) {
+  height: 11px;
+  width: 11px;
+  left: 40%;
+  top: 79%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 25s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(249) {
+  height: 24px;
+  width: 24px;
+  left: 94%;
+  top: 79%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(250) {
+  height: 18px;
+  width: 18px;
+  left: 15%;
+  top: 32%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 29s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(251) {
+  height: 13px;
+  width: 13px;
+  left: 84%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 30s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(252) {
+  height: 25px;
+  width: 25px;
+  left: 72%;
+  top: 95%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 39s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(253) {
+  height: 22px;
+  width: 22px;
+  left: 36%;
+  top: 50%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 27s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(254) {
+  height: 15px;
+  width: 15px;
+  left: 16%;
+  top: 67%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(255) {
+  height: 12px;
+  width: 12px;
+  left: 63%;
+  top: 6%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(256) {
+  height: 21px;
+  width: 21px;
+  left: 100%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(257) {
+  height: 23px;
+  width: 23px;
+  left: 98%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(258) {
+  height: 22px;
+  width: 22px;
+  left: 2%;
+  top: 81%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(259) {
+  height: 12px;
+  width: 12px;
+  left: 35%;
+  top: 81%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(260) {
+  height: 11px;
+  width: 11px;
+  left: 20%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(261) {
+  height: 13px;
+  width: 13px;
+  left: 84%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 36s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(262) {
+  height: 13px;
+  width: 13px;
+  left: 82%;
+  top: 49%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 28s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(263) {
+  height: 20px;
+  width: 20px;
+  left: 61%;
+  top: 61%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 31s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(264) {
+  height: 19px;
+  width: 19px;
+  left: 58%;
+  top: 98%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 27s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(265) {
+  height: 16px;
+  width: 16px;
+  left: 94%;
+  top: 36%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 30s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(266) {
+  height: 23px;
+  width: 23px;
+  left: 28%;
+  top: 5%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(267) {
+  height: 23px;
+  width: 23px;
+  left: 40%;
+  top: 16%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(268) {
+  height: 25px;
+  width: 25px;
+  left: 87%;
+  top: 79%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(269) {
+  height: 12px;
+  width: 12px;
+  left: 10%;
+  top: 85%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 27s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(270) {
+  height: 22px;
+  width: 22px;
+  left: 82%;
+  top: 63%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 35s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(271) {
+  height: 14px;
+  width: 14px;
+  left: 11%;
+  top: 36%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 33s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(272) {
+  height: 22px;
+  width: 22px;
+  left: 89%;
+  top: 29%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 30s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(273) {
+  height: 20px;
+  width: 20px;
+  left: 74%;
+  top: 93%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 35s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(274) {
+  height: 22px;
+  width: 22px;
+  left: 15%;
+  top: 99%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(275) {
+  height: 15px;
+  width: 15px;
+  left: 79%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(276) {
+  height: 16px;
+  width: 16px;
+  left: 90%;
+  top: 13%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 32s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(277) {
+  height: 16px;
+  width: 16px;
+  left: 92%;
+  top: 18%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(278) {
+  height: 14px;
+  width: 14px;
+  left: 31%;
+  top: 69%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(279) {
+  height: 11px;
+  width: 11px;
+  left: 44%;
+  top: 59%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(280) {
+  height: 25px;
+  width: 25px;
+  left: 54%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 24s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(281) {
+  height: 21px;
+  width: 21px;
+  left: 91%;
+  top: 72%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 40s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(282) {
+  height: 22px;
+  width: 22px;
+  left: 80%;
+  top: 23%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 35s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(283) {
+  height: 13px;
+  width: 13px;
+  left: 88%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 23s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(284) {
+  height: 12px;
+  width: 12px;
+  left: 48%;
+  top: 46%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(285) {
+  height: 19px;
+  width: 19px;
+  left: 25%;
+  top: 49%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(286) {
+  height: 24px;
+  width: 24px;
+  left: 76%;
+  top: 88%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 38s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(287) {
+  height: 15px;
+  width: 15px;
+  left: 1%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(288) {
+  height: 17px;
+  width: 17px;
+  left: 70%;
+  top: 22%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 32s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(289) {
+  height: 25px;
+  width: 25px;
+  left: 37%;
+  top: 94%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(290) {
+  height: 18px;
+  width: 18px;
+  left: 71%;
+  top: 100%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 40s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(291) {
+  height: 15px;
+  width: 15px;
+  left: 92%;
+  top: 25%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 30s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(292) {
+  height: 12px;
+  width: 12px;
+  left: 96%;
+  top: 1%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(293) {
+  height: 19px;
+  width: 19px;
+  left: 41%;
+  top: 51%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 29s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(294) {
+  height: 11px;
+  width: 11px;
+  left: 75%;
+  top: 1%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(295) {
+  height: 20px;
+  width: 20px;
+  left: 9%;
+  top: 18%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 25s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(296) {
+  height: 15px;
+  width: 15px;
+  left: 100%;
+  top: 53%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 38s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(297) {
+  height: 12px;
+  width: 12px;
+  left: 77%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(298) {
+  height: 15px;
+  width: 15px;
+  left: 65%;
+  top: 99%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 37s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(299) {
+  height: 24px;
+  width: 24px;
+  left: 96%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(300) {
+  height: 16px;
+  width: 16px;
+  left: 67%;
+  top: 90%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 24s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(301) {
+  height: 13px;
+  width: 13px;
+  left: 32%;
+  top: 71%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 38s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(302) {
+  height: 12px;
+  width: 12px;
+  left: 37%;
+  top: 68%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 29s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(303) {
+  height: 12px;
+  width: 12px;
+  left: 67%;
+  top: 64%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(304) {
+  height: 22px;
+  width: 22px;
+  left: 2%;
+  top: 100%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(305) {
+  height: 21px;
+  width: 21px;
+  left: 72%;
+  top: 91%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 40s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(306) {
+  height: 23px;
+  width: 23px;
+  left: 47%;
+  top: 95%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 28s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(307) {
+  height: 25px;
+  width: 25px;
+  left: 59%;
+  top: 17%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(308) {
+  height: 18px;
+  width: 18px;
+  left: 22%;
+  top: 13%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(309) {
+  height: 19px;
+  width: 19px;
+  left: 63%;
+  top: 20%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 40s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(310) {
+  height: 13px;
+  width: 13px;
+  left: 14%;
+  top: 67%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 30s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(311) {
+  height: 17px;
+  width: 17px;
+  left: 13%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 26s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(312) {
+  height: 13px;
+  width: 13px;
+  left: 85%;
+  top: 43%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 36s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(313) {
+  height: 19px;
+  width: 19px;
+  left: 27%;
+  top: 52%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(314) {
+  height: 13px;
+  width: 13px;
+  left: 53%;
+  top: 67%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(315) {
+  height: 18px;
+  width: 18px;
+  left: 100%;
+  top: 44%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(316) {
+  height: 14px;
+  width: 14px;
+  left: 33%;
+  top: 61%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 30s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(317) {
+  height: 13px;
+  width: 13px;
+  left: 72%;
+  top: 36%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 29s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(318) {
+  height: 19px;
+  width: 19px;
+  left: 68%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 40s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(319) {
+  height: 25px;
+  width: 25px;
+  left: 86%;
+  top: 86%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 39s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(320) {
+  height: 25px;
+  width: 25px;
+  left: 77%;
+  top: 25%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(321) {
+  height: 25px;
+  width: 25px;
+  left: 32%;
+  top: 10%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(322) {
+  height: 14px;
+  width: 14px;
+  left: 38%;
+  top: 39%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 38s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(323) {
+  height: 22px;
+  width: 22px;
+  left: 88%;
+  top: 9%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 40s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(324) {
+  height: 24px;
+  width: 24px;
+  left: 67%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 32s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(325) {
+  height: 12px;
+  width: 12px;
+  left: 19%;
+  top: 66%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 37s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(326) {
+  height: 23px;
+  width: 23px;
+  left: 79%;
+  top: 38%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 31s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(327) {
+  height: 11px;
+  width: 11px;
+  left: 3%;
+  top: 4%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(328) {
+  height: 13px;
+  width: 13px;
+  left: 11%;
+  top: 99%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 27s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(329) {
+  height: 20px;
+  width: 20px;
+  left: 74%;
+  top: 47%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 32s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(330) {
+  height: 13px;
+  width: 13px;
+  left: 6%;
+  top: 84%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 29s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(331) {
+  height: 19px;
+  width: 19px;
+  left: 24%;
+  top: 58%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 35s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(332) {
+  height: 19px;
+  width: 19px;
+  left: 26%;
+  top: 20%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 36s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(333) {
+  height: 20px;
+  width: 20px;
+  left: 25%;
+  top: 50%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 35s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(334) {
+  height: 21px;
+  width: 21px;
+  left: 79%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 33s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(335) {
+  height: 16px;
+  width: 16px;
+  left: 10%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 21s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(336) {
+  height: 18px;
+  width: 18px;
+  left: 69%;
+  top: 16%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(337) {
+  height: 21px;
+  width: 21px;
+  left: 87%;
+  top: 60%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 31s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(338) {
+  height: 12px;
+  width: 12px;
+  left: 77%;
+  top: 34%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(339) {
+  height: 23px;
+  width: 23px;
+  left: 34%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(340) {
+  height: 21px;
+  width: 21px;
+  left: 99%;
+  top: 34%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 37s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(341) {
+  height: 17px;
+  width: 17px;
+  left: 17%;
+  top: 50%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 39s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(342) {
+  height: 20px;
+  width: 20px;
+  left: 28%;
+  top: 21%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.8s;
+  animation-duration: 39s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(343) {
+  height: 22px;
+  width: 22px;
+  left: 70%;
+  top: 73%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 29s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(344) {
+  height: 17px;
+  width: 17px;
+  left: 93%;
+  top: 53%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 23s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(345) {
+  height: 21px;
+  width: 21px;
+  left: 49%;
+  top: 76%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 36s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(346) {
+  height: 25px;
+  width: 25px;
+  left: 82%;
+  top: 41%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 27s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(347) {
+  height: 16px;
+  width: 16px;
+  left: 79%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(348) {
+  height: 20px;
+  width: 20px;
+  left: 71%;
+  top: 56%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(349) {
+  height: 25px;
+  width: 25px;
+  left: 39%;
+  top: 52%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 23s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(350) {
+  height: 25px;
+  width: 25px;
+  left: 54%;
+  top: 5%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 30s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(351) {
+  height: 23px;
+  width: 23px;
+  left: 64%;
+  top: 3%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 30s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(352) {
+  height: 22px;
+  width: 22px;
+  left: 83%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(353) {
+  height: 22px;
+  width: 22px;
+  left: 46%;
+  top: 51%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 23s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(354) {
+  height: 20px;
+  width: 20px;
+  left: 35%;
+  top: 21%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 25s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(355) {
+  height: 20px;
+  width: 20px;
+  left: 24%;
+  top: 75%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 40s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(356) {
+  height: 24px;
+  width: 24px;
+  left: 18%;
+  top: 3%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 35s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(357) {
+  height: 11px;
+  width: 11px;
+  left: 4%;
+  top: 12%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 34s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(358) {
+  height: 13px;
+  width: 13px;
+  left: 85%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(359) {
+  height: 17px;
+  width: 17px;
+  left: 1%;
+  top: 84%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 22s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(360) {
+  height: 14px;
+  width: 14px;
+  left: 99%;
+  top: 31%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 32s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(361) {
+  height: 24px;
+  width: 24px;
+  left: 24%;
+  top: 9%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 36s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(362) {
+  height: 14px;
+  width: 14px;
+  left: 4%;
+  top: 72%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 24s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(363) {
+  height: 18px;
+  width: 18px;
+  left: 97%;
+  top: 22%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 25s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(364) {
+  height: 12px;
+  width: 12px;
+  left: 65%;
+  top: 33%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 25s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(365) {
+  height: 15px;
+  width: 15px;
+  left: 9%;
+  top: 85%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(366) {
+  height: 20px;
+  width: 20px;
+  left: 100%;
+  top: 71%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 37s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(367) {
+  height: 16px;
+  width: 16px;
+  left: 14%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 35s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(368) {
+  height: 13px;
+  width: 13px;
+  left: 28%;
+  top: 25%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 37s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(369) {
+  height: 17px;
+  width: 17px;
+  left: 83%;
+  top: 44%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(370) {
+  height: 24px;
+  width: 24px;
+  left: 69%;
+  top: 52%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 25s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(371) {
+  height: 15px;
+  width: 15px;
+  left: 58%;
+  top: 3%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 24s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(372) {
+  height: 23px;
+  width: 23px;
+  left: 98%;
+  top: 87%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 31s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(373) {
+  height: 14px;
+  width: 14px;
+  left: 17%;
+  top: 29%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(374) {
+  height: 22px;
+  width: 22px;
+  left: 43%;
+  top: 59%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(375) {
+  height: 12px;
+  width: 12px;
+  left: 88%;
+  top: 47%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 28s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(376) {
+  height: 22px;
+  width: 22px;
+  left: 89%;
+  top: 48%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 26s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(377) {
+  height: 19px;
+  width: 19px;
+  left: 24%;
+  top: 4%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(378) {
+  height: 12px;
+  width: 12px;
+  left: 94%;
+  top: 43%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 29s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(379) {
+  height: 15px;
+  width: 15px;
+  left: 17%;
+  top: 83%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 31s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(380) {
+  height: 19px;
+  width: 19px;
+  left: 38%;
+  top: 93%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 34s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(381) {
+  height: 15px;
+  width: 15px;
+  left: 82%;
+  top: 48%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.7s;
+  animation-duration: 32s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(382) {
+  height: 24px;
+  width: 24px;
+  left: 81%;
+  top: 58%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 21s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(383) {
+  height: 21px;
+  width: 21px;
+  left: 25%;
+  top: 75%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 35s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(384) {
+  height: 12px;
+  width: 12px;
+  left: 91%;
+  top: 23%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 26s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(385) {
+  height: 22px;
+  width: 22px;
+  left: 80%;
+  top: 23%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 40s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(386) {
+  height: 18px;
+  width: 18px;
+  left: 78%;
+  top: 80%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(387) {
+  height: 15px;
+  width: 15px;
+  left: 93%;
+  top: 5%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 33s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(388) {
+  height: 25px;
+  width: 25px;
+  left: 55%;
+  top: 37%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 34s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(389) {
+  height: 25px;
+  width: 25px;
+  left: 81%;
+  top: 28%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.6s;
+  animation-duration: 36s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(390) {
+  height: 25px;
+  width: 25px;
+  left: 1%;
+  top: 45%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 37s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(391) {
+  height: 25px;
+  width: 25px;
+  left: 42%;
+  top: 99%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.5s;
+  animation-duration: 26s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(392) {
+  height: 15px;
+  width: 15px;
+  left: 85%;
+  top: 30%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 37s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(393) {
+  height: 13px;
+  width: 13px;
+  left: 37%;
+  top: 30%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.1s;
+  animation-duration: 32s;
+  animation-name: floatReverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(394) {
+  height: 16px;
+  width: 16px;
+  left: 25%;
+  top: 11%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 35s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(395) {
+  height: 24px;
+  width: 24px;
+  left: 39%;
+  top: 94%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.4s;
+  animation-duration: 26s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(396) {
+  height: 23px;
+  width: 23px;
+  left: 28%;
+  top: 70%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 1s;
+  animation-duration: 24s;
+  animation-name: float2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(397) {
+  height: 21px;
+  width: 21px;
+  left: 68%;
+  top: 27%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 37s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(398) {
+  height: 22px;
+  width: 22px;
+  left: 61%;
+  top: 72%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.9s;
+  animation-duration: 29s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(399) {
+  height: 15px;
+  width: 15px;
+  left: 12%;
+  top: 2%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.3s;
+  animation-duration: 40s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.particle:nth-child(400) {
+  height: 23px;
+  width: 23px;
+  left: 7%;
+  top: 42%;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation-delay: 0.2s;
+  animation-duration: 31s;
+  animation-name: floatReverse2;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="hero_name">
+        <item>类别1</item>
+        <item>类别2</item>
+        <item>类别3</item>
+        <item>类别4</item>
+        <item>类别5</item>
+        <item>类别6</item>
+    </string-array>   
+</resources>

@@ -1,0 +1,180 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="about_me_dialog_textsize">16sp</dimen>
+    <dimen name="about_me_dialog_textmargin">7dp</dimen>
+    <dimen name="about_me_dialog_layout_margin">10dp</dimen>
+    <dimen name="about_me_record_padding">10dp</dimen>
+    <dimen name="about_me_head_portrait">100dp</dimen>
+    <dimen name="about_me_purse">75dp</dimen>
+    <dimen name="about_me_calendar">50dp</dimen>
+    <dimen name="bottom_bar_height">55dip</dimen>
+    <dimen name="contain_padding">14dp</dimen>
+    <dimen name="contain_padding1">12dp</dimen>
+    <dimen name="contain_padding10">10dp</dimen>
+    <dimen name="contain_padding2">8dp</dimen>
+    <dimen name="contain_padding6">6dp</dimen>
+    <dimen name="contain_padding3">4dp</dimen>
+    <dimen name="contain_padding4">2dp</dimen>
+    <dimen name="content_fontmin">10sp</dimen>
+    <dimen name="content_fontmin1">14sp</dimen>
+    <dimen name="content_font">14sp</dimen>
+    <dimen name="content_font1">16sp</dimen>
+    <dimen name="content_font2">16sp</dimen>
+    <dimen name="content_font3">20sp</dimen>
+    <dimen name="home_button">40dp</dimen>
+    <dimen name="icon_size">20dp</dimen>
+    <dimen name="issue_top">30dp</dimen>
+    <dimen name="main_button">30dp</dimen>
+    <dimen name="top_bar_height">45dip</dimen>
+    <dimen name="top_bar_arrows_w">30dip</dimen>
+    <dimen name="top_bar_arrows_h">30dip</dimen>
+    <dimen name="top_bar_image">30dip</dimen>
+    <dimen name="top_bar_margin">6dip</dimen>
+    <dimen name="top_bar_title_size">18sp</dimen>
+    <dimen name="top_title_title">16sp</dimen>
+    <dimen name="top_title_title1">20sp</dimen>
+    <dimen name="top_title_time">12sp</dimen>
+    <dimen name="mapview_linear_padding">7dp</dimen>
+    <dimen name="mapview_linear_marginBottom">10dp</dimen>
+    <dimen name="mapview_linear_marginLeft">30dp</dimen>
+    <dimen name="mapview_linear_marginRight">30dp</dimen>
+    <dimen name="mapview_linear_botton_textsize_t1">21sp</dimen>
+    <dimen name="mapview_linear_botton_textsize_t2">16sp</dimen>
+    <dimen name="mapview_linear_botton_textsize_t_spacing">3sp</dimen>
+    <dimen name="mapview_linear_botton_textsize_b">17sp</dimen>
+    <dimen name="mapview_linear_botton_textsize_button_padding">5sp</dimen>
+    <dimen name="mapview_linear_botton_textsize_button_marginLeft">7sp</dimen>
+    <dimen name="mapview_linear_marginTop">10dp</dimen>
+    <dimen name="content_padding">4dp</dimen>
+    <dimen name="carbon_item_padding">8dp</dimen>
+    <dimen name="carbon_item_padding1">10dp</dimen>
+    <dimen name="carbon_margin_left">6dp</dimen>
+    <dimen name="carbon_margin_right">6dp</dimen>
+    <dimen name="margin_size_min">4dp</dimen>
+    <dimen name="margin_size">6dp</dimen>
+    <dimen name="margin_size1">8dp</dimen>
+    <dimen name="margin_size2">10dp</dimen>
+    <dimen name="margin_size3">12dp</dimen>
+    <dimen name="margin_size4">14dp</dimen>
+    <dimen name="margin_size5">16dp</dimen>
+    <dimen name="margin_size6">18dp</dimen>
+    <dimen name="margin_size7">20dp</dimen>
+    <dimen name="mine_imagetop">10dp</dimen>
+    <dimen name="user_login_register_size">16sp</dimen>
+    <dimen name="user_login_margin_right_left">10dp</dimen>
+    <dimen name="user_login_padding">10dp</dimen>
+    <dimen name="user_login_padding2">5dp</dimen>
+    <dimen name="user_login_margin_text">10dp</dimen>
+    <dimen name="user_login_margin_top">16dp</dimen>
+    <dimen name="margin_top">4dp</dimen>
+    <dimen name="margin_top1">6dp</dimen>
+    <dimen name="margin_top2">8dp</dimen>
+    <dimen name="margin_top3">10dp</dimen>
+    <dimen name="margin_top4">20dp</dimen>
+    <dimen name="mapview_navi_button_padding">10dp</dimen>
+    <dimen name="mapview_navi_button_marger">15dp</dimen>
+    <dimen name="mapview_navi_button_textsize">16sp</dimen>
+    <dimen name="submit_width">80dp</dimen>
+    <dimen name="submit_height">30dp</dimen>
+    <dimen name="setting_left_image">30dp</dimen>
+    <dimen name="setting_text_marginleft">20dp</dimen>
+    <dimen name="setting_text_size">16sp</dimen>
+    <dimen name="setting_title_text_size">22sp</dimen>
+    <dimen name="setting_arrows_right">25dp</dimen>
+    <dimen name="setting_divide">30dp</dimen>
+    <dimen name="setting_item_padding_top_and_botton">8dp</dimen>
+    <dimen name="setting_item_padding_left_right">15dp</dimen>
+    <dimen name="offlinemap_item_padding">12dp</dimen>
+    <dimen name="offlinemap_item_marger">8dp</dimen>
+    <dimen name="offlinemap_item_child_marger">18dp</dimen>
+    <dimen name="offlinemap_item_textsize">18sp</dimen>
+    <dimen name="offlinemap_item_child_textsize">16sp</dimen>
+    <dimen name="offlinemap_item_imagesize">18dp</dimen>
+    <dimen name="offlinemap_button_textsize">16sp</dimen>
+    <dimen name="offlinemap_button_pading">8dp</dimen>
+    <dimen name="offlinemap_button_marger_top">4dp</dimen>
+    <dimen name="offlinemap_button_marger_botton">8dp</dimen>
+    <dimen name="offlinemap_manage_button_textsize">14sp</dimen>
+    <dimen name="offlinemap_manage_button_padding">8dp</dimen>
+    <dimen name="offlinemap_manage_button_marger_top_botton">8dp</dimen>
+    <dimen name="offlinemap_manage_button_marger_left_right">18dp</dimen>
+    <dimen name="user_register_marginleft_and_right">6dp</dimen>
+    <dimen name="user_register_paddingtop_and_botton">15dp</dimen>
+    <dimen name="user_register_margintop">25dp</dimen>
+    <dimen name="user_register_text_size">15sp</dimen>
+    <dimen name="user_register_send_auth_code_padding">6dp</dimen>
+    <dimen name="user_register_register_now_padding">10dp</dimen>
+    <dimen name="user_register_register_now_textsize">18sp</dimen>
+    <dimen name="user_register_agree_text_size">14sp</dimen>
+    <dimen name="user_register_checkbox_width_height">20dp</dimen>
+    <dimen name="user_login_margin_left">44dp</dimen>
+    <dimen name="user_login_margin_right">44dp</dimen>
+    <dimen name="user_login_forget_password_margin">10dp</dimen>
+    <dimen name="user_login_margin_password_top">8dp</dimen>
+    <dimen name="user_login_margin_now_login">16sp</dimen>
+    <dimen name="user_feedback_button_margin_top">25dp</dimen>
+    <dimen name="user_feedback_margin_top_and_botton">15dp</dimen>
+    <dimen name="user_feedback_padding">15dp</dimen>
+    <dimen name="user_feedback_textsize">15sp</dimen>
+    <dimen name="user_feedback_edittext_linespacingextra">5sp</dimen>
+    <dimen name="user_feedback_describe_height">300dp</dimen>
+    <dimen name="user_feedback_button_textsize">16sp</dimen>
+    <dimen name="content_fontmin2">12sp</dimen>
+    <dimen name="content_fontmin3">13dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- switchCity -->
+    <dimen name="biz_plugin_weather_selectcity_group_item_padding">14.0dip</dimen>
+    <dimen name="biz_plugin_weather_selectcity_item_textsize">13.0sp</dimen>
+    <!-- 首页 -->
+    <dimen name="round_btn_green_tk_corner">2.0dip</dimen>
+    <!-- 标题栏 -->
+    <dimen name="size_17">12.0sp</dimen>
+    <dimen name="size_18">13.0sp</dimen>
+    <dimen name="size_19">14.0sp</dimen>
+    <dimen name="size_20">15.0sp</dimen>
+    <dimen name="size_21">16.0sp</dimen>
+    <dimen name="size_22">17.0sp</dimen>
+    <dimen name="size_24">19.0sp</dimen>
+    <dimen name="common_divider_height">10.0dip</dimen>
+    <dimen name="section_text_size">18.0sp</dimen>
+    <!-- 周边 -->
+    <dimen name="comment_textSize3">12.0sp</dimen>
+    <!-- activity_near_by -->
+    <dimen name="near_by_textSize1">17.0sp</dimen>
+    <!-- 首页 -->
+    <dimen name="home_list_divider_height">20dp</dimen>
+    <!-- 首页Banner -->
+    <dimen name="home_top_center_banner_height">60dp</dimen>
+    <dimen name="home_icon_height">198dp</dimen>
+    <!-- 首页电影 -->
+    <dimen name="home_cinema_margin">10dp</dimen>
+    <dimen name="home_cinema_margin_bottom">9dp</dimen>
+    <dimen name="home_cinema_width">95dp</dimen>
+    <dimen name="home_cinema_height">125dp</dimen>
+    <!-- 全部电影界面 -->
+    <dimen name="item_mid_size">14.0sp</dimen>
+    <!-- GoodsListItem -->
+    <dimen name="tv_product_size">16.0sp</dimen>
+    <dimen name="list_image_width">98.0dip</dimen>
+    <dimen name="list_image_heigh">98.0dip</dimen>
+    <!-- list_item_looks -->
+    <dimen name="list_view_driver_height">0.5dip</dimen>
+    <dimen name="tv_shorttitle_size">12.0sp</dimen>
+    <dimen name="tv_price_type">8.0sp</dimen>
+    <dimen name="tv_price_lashou">20.0sp</dimen>
+    <dimen name="tv_price_size">18.0sp</dimen>
+    <!-- filmListItem -->
+    <dimen name="item_large_size">15.0sp</dimen>
+    <!-- 圆形控件 -->
+    <dimen name="round_corner_2dp">2.0dip</dimen>
+    <!-- 登录界面 -->
+    <dimen name="title_bar_center_textSize">20.0sp</dimen>
+    <dimen name="title_bar_righ_textSize">16.0sp</dimen>
+    <!-- 搜索界面 -->
+    <dimen name="search_hotword_height">35.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 分享界面 -->
+    <dimen name="share_title_bar_height">44.0dip</dimen>
+</resources>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>产品列表</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/swiper3.07.min.css" />
+		<link rel="stylesheet" href="../css/index.css">
+		<link href="../css/android_miner.css" rel="stylesheet" type="text/css" />
+		<script src="../js/jquery.js"></script>
+		<script src="../js/swiper.min.js"></script>
+
+		<style>
+			* {
+				font-size: 14px;
+			}
+			
+			.mui-row.mui-fullscreen>[class*="mui-col-"] {
+				height: 100%;
+			}
+			
+			.mui-col-xs-3,
+			.mui-control-content {
+				overflow-y: auto;
+				/*height: 100%;*/
+			}
+			
+			.mui-segmented-control .mui-control-item {
+				line-height: 50px;
+				width: 100%;
+			}
+			
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+				background-color: #fff;
+			}
+			/*分类开始*/
+			
+			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+				height: 100%;
+			}
+			
+			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body img {
+				width: 50%;
+				float: left;
+				padding: 1%;
+			}
+			
+			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body p {
+				text-align: left;
+				display: block;
+				color: #5a5a5a;
+				font-size: 15px;
+				line-height: 2em;
+			}
+			
+			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body button {
+				position: absolute;
+				right: 0;
+				bottom: 10%;
+			}
+			
+			.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+				padding: 0;
+			}
+			
+			.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+				/*background: #007AFF;*/
+			}
+			
+			.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+				padding: 0;
+			}
+			
+			.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+				border: none;
+			}
+			
+			.mui-grid-view.mui-grid-9 {
+				border: none;
+			}
+			
+			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+				margin: 0;
+			}
+			
+			.mui-grid-view.mui-grid-9 {
+				background: #FFFFFF;
+			}
+			
+			.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+				border: none;
+			}
+			
+			.mui-table-view-cell>a {
+				line-height: 3em;
+				font-size: 1em;
+				display: block;
+			}
+			
+			.mui-table-view-cell>ul li a div p {
+				line-height: 1.8em;
+				font-size: 0.8em;
+			}
+			
+			.mui-bar-nav>.mui-pull-right {
+				line-height: 350%;
+				color: #DEAC57;
+			}
+			.postion_absolute {
+				position: relative;
+			}  line-height: .45rem;
+			/*.add {*/
+				/*position: absolute;*/
+				/*bottom: 0;*/
+				/*right: 0;*/
+				/*z-index: 999;*/
+			/*}*/
+			.add button {
+				border-radius: 50%;
+			}
+
+			.amountto {
+				width: 100%;
+				background: #CCCCCC;
+				position: relative;
+				line-height: 50px;
+			}
+			
+			.amountto i {
+				margin-left: 5%;
+				font-size: 24px;
+				background: #d23c3b;
+				border-radius: 50%;
+				padding: 2%;
+				color: #FFFFFF;
+			}
+			
+			.amountto input[type="button"] {
+				position: absolute;
+				top: 0%;
+				right: 0;
+				border: none;
+				border-radius: 0px;
+				line-height: 42px;
+				background: #d23c3b;
+				color: #FFFFFF;
+			}
+			/**/
+			.mui-numbox .mui-numbox-btn-minus {
+				    border-top-left-radius: 0px;
+				        border-bottom-left-radius: 0px;
+				left: 0;
+			}
+			.mui-numbox [class*=btn-numbox], .mui-numbox [class*=numbox-btn] {
+				width: 33px;
+				height: 33px;
+				color: #FFFFFF;
+				background: #F57C2B;
+				border-radius: 50%;
+			}
+			.mui-numbox .mui-input-numbox, .mui-numbox .mui-numbox-input {
+				border-right: none;
+				border-left: none;
+			}
+			.mui-numbox {
+				padding: 0;
+				border: none;
+				border-radius: none;
+				background: none;
+				width: 100px;
+			}
+			.mui-numbox .mui-numbox-input {
+				border-left: none !important;
+				border-right: none !important;
+			}
+			/*按钮*/
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="order.jsp"></a>
+			<h1 class="mui-title">产品列表</h1>
+			<a class="mui-pull-right pop-up" href="popup.html">外送须知</a>
+		</header>
+		<!--分类商品-->
+		<div class="main" style="margin-top: 5%">
+			<div class="left-menu" style="margin-top: 5%">
+				<ul>
+					<li class="active">干锅<span class="num-price"></span></li>
+					<li>汤锅</li>
+					<li>荤菜</li>
+					<li>素菜</li>
+					<li>主食</li>
+					<li>酒水</li>
+					<li>其他</li>
+				</ul>
+			</div>
+			<div class="con" style="margin-top: 5%">
+				<div class="right-con con-active" >
+					<ul>
+						<li class="clearfix">
+							<div class="menu-img"><img src="../images/index (2).png" width="55" height="55" /></div>
+							<div class="menu-txt">
+								<h4>凉拌猪耳</h4>
+								<h2>￥25.00</h2>
+								<p class="list1">剩余<em>3</em>份，预计等待时间<em>5</em>分钟</p>
+								<p class="list2">
+								<div class="btn" style="top: 30%;">
+									<button class="minus">
+										<strong>-</strong>
+									</button>
+									<i>0</i>
+									<button class="add">
+										<strong>+</strong>
+									</button>
+									<i class="price">25</i>
+								</div>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="right-con">
+					<ul>
+						<li class="clearfix">
+							<div class="menu-img"><img src="../images/index (2).png" width="55" height="55" /></div>
+							<div class="menu-txt">
+								<h4>凉拌猪耳</h4>
+								<h2>￥25.00</h2>
+								<p class="list1">剩余<em>3</em>份，预计等待时间<em>5</em>分钟</p>
+								<p class="list2">
+								<div class="btn" style="top: 30%;">
+									<button class="minus">
+										<strong>-</strong>
+									</button>
+									<i>0</i>
+									<button class="add">
+										<strong>+</strong>
+									</button>
+									<i class="price">25</i>
+								</div>
+								</p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="right-con">
+					<ul>
+						<li class="clearfix">
+							<div class="menu-img"><img src="../images/index (2).png" width="55" height="55" /></div>
+							<div class="menu-txt">
+								<h4>凉拌猪耳</h4>
+								<h2>￥25.00</h2>
+								<p class="list1">剩余<em>3</em>份，预计等待时间<em>5</em>分钟</p>
+								<p class="list2">
+								<div class="btn" style="top: 30%;">
+									<button class="minus">
+										<strong>-</strong>
+									</button>
+									<i>0</i>
+									<button class="add">
+										<strong>+</strong>
+									</button>
+									<i class="price">25</i>
+								</div>
+								</p>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="menu-img"><img src="../images/index (2).png" width="55" height="55" /></div>
+							<div class="menu-txt">
+								<h4>凉拌猪耳</h4>
+								<h2>￥25.00</h2>
+								<p class="list1">剩余<em>3</em>份，预计等待时间<em>5</em>分钟</p>
+								<p class="list2">
+								<div class="btn" style="top: 30%;">
+									<button class="minus">
+										<strong>-</strong>
+									</button>
+									<i>0</i>
+									<button class="add">
+										<strong>+</strong>
+									</button>
+									<i class="price">25</i>
+								</div>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="right-con">
+					<ul>
+						<li class="clearfix">
+							<div class="menu-img"><img src="../images/index (2).png" width="55" height="55" /></div>
+							<div class="menu-txt">
+								<h4>凉拌猪耳</h4>
+								<h2>￥25.00</h2>
+								<p class="list1">剩余<em>3</em>份，预计等待时间<em>5</em>分钟</p>
+								<p class="list2">
+								<div class="btn" style="top: 30%;">
+									<button class="minus">
+										<strong>-</strong>
+									</button>
+									<i>0</i>
+									<button class="add">
+										<strong>+</strong>
+									</button>
+									<i class="price">25</i>
+								</div>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="footer">
+			<div class="left">
+		<span id="cartN">
+			<img src="../images/shop_03.png"/>
+			<span id="totalcountshow">0</span>
+			<span class="totalpriceshow">￥<em id="totalpriceshow">0</em></span>
+		</span>
+			</div>
+			<div class="right">
+				<a id="btnselect" style="background-color:#FF0B0C;" class="xhlbtn  disable" href="../Cart/cart-settlement.html">去结算</a>
+			</div>
+		</div>
+		<div style="height:1.2rem;"></div>
+		<script src="../js/mui.min.js"></script>
+		<script>
+			mui.init({
+				swipeBack: true //启用右滑关闭功能
+			});
+		</script>
+		<script language="javascript">
+            var mySwiper = new Swiper('.swiper-container',{
+                prevButton:'.swiper-button-prev',
+                nextButton:'.swiper-button-next',
+            })
+		</script>
+		<script>
+            $(document).ready(function() {
+                var mySwiper = new Swiper('#slide', {
+                    autoplay: 5000,
+                    visibilityFullFit: true,
+                    loop: true,
+                    pagination: '.pagination',
+                });
+            });
+		</script>
+		<!--加减和tab切换-->
+		<script type="text/javascript">
+            $(function () {
+                //加的效果
+                $(".add").click(function () {
+                    $(this).prevAll().css("display", "inline-block");
+                    var n = $(this).prev().text();
+                    var num = parseInt(n) + 1;
+                    if (num == 0) { return; }
+                    $(this).prev().text(num);
+                    var danjia = $(this).next().text();//获取单价
+                    var a = $("#totalpriceshow").html();//获取当前所选总价
+                    $("#totalpriceshow").html((a * 1 + danjia * 1).toFixed(2));//计算当前所选总价
+
+                    var nm = $("#totalcountshow").html();//获取数量
+                    $("#totalcountshow").html(nm*1+1);
+                    jss();//<span style='font-family: Arial, Helvetica, sans-serif;'></span>   改变按钮样式
+                });
+                //减的效果
+                $(".minus").click(function () {
+                    var n = $(this).next().text();
+                    var num = parseInt(n) - 1;
+
+                    $(this).next().text(num);//减1
+
+                    var danjia = $(this).nextAll(".price").text();//获取单价
+                    var a = $("#totalpriceshow").html();//获取当前所选总价
+                    $("#totalpriceshow").html((a * 1 - danjia * 1).toFixed(2));//计算当前所选总价
+
+                    var nm = $("#totalcountshow").html();//获取数量
+                    $("#totalcountshow").html(nm * 1 - 1);
+                    //如果数量小于或等于0则隐藏减号和数量
+                    if (num <= 0) {
+                        $(this).next().css("display", "none");
+                        $(this).css("display", "none");
+                        jss();//改变按钮样式
+                        return
+                    }
+                });
+                function jss() {
+                    var m = $("#totalcountshow").html();
+                    if (m > 0) {
+                        $(".right").find("a").removeClass("disable");
+                    } else {
+                        $(".right").find("a").addClass("disable");
+                    }
+                };
+                //选项卡
+                $(".con>div").hide();
+                $(".con>div:eq(0)").show();
+
+                $(".left-menu li").click(function(){
+                    $(this).addClass("active").siblings().removeClass("active");
+                    var n = $(".left-menu li").index(this);
+                    $(".left-menu li").index(this);
+                    $(".con>div").hide();
+                    $(".con>div:eq("+n+")").show();
+                });
+            });
+		</script>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+	<ml>

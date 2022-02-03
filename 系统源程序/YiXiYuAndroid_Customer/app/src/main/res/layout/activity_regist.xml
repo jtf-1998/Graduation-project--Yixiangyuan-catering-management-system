@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/user_register_marginleft_and_right"
+            android:layout_marginRight="@dimen/user_register_marginleft_and_right"
+            android:layout_marginTop="@dimen/margin_size2"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/user_register_paddingtop_and_botton"
+                android:paddingTop="@dimen/user_register_paddingtop_and_botton" >
+
+                <TextView
+                    style="@style/user_register_left_text"
+                    android:text="@string/user_register_pet_name" />
+
+                <EditText
+                    android:id="@+id/register_nickname"
+                    style="@style/user_register_edittext"
+                    android:hint="@string/user_register_pet_name_edittext"
+                    android:maxLength="11" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/user_register_paddingtop_and_botton"
+                android:paddingTop="@dimen/user_register_paddingtop_and_botton" >
+
+                <TextView
+                    style="@style/user_register_left_text"
+                    android:layout_weight="1.503"
+                    android:text="@string/user_register_phone_num" />
+
+                <EditText
+                    android:id="@+id/register_phone"
+                    style="@style/user_register_edittext"
+                    android:hint="@string/user_register_phone_num_edittext"
+                    android:inputType="phone"
+                    android:maxLength="11" />
+
+                <TextView
+                    android:id="@+id/user_register_auth_code_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@color/red"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:padding="@dimen/user_register_send_auth_code_padding"
+                    android:singleLine="true"
+                    android:text="@string/user_register_send_auth_code"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/user_register_paddingtop_and_botton"
+                android:paddingTop="@dimen/user_register_paddingtop_and_botton" >
+
+                <TextView
+                    style="@style/user_register_left_text"
+                    android:text="@string/user_register_auth_code" />
+
+                <EditText
+                    android:id="@+id/user_register_auth_code_et"
+                    style="@style/user_register_edittext"
+                    android:hint="@string/user_register_auth_code_edittext"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/user_register_paddingtop_and_botton"
+                android:paddingTop="@dimen/user_register_paddingtop_and_botton" >
+
+                <TextView
+                    style="@style/user_register_left_text"
+                    android:text="@string/user_register_sex" />
+
+                <LinearLayout
+                    android:id="@+id/user_register_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="left" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="40dp" >
+
+                        <RadioGroup
+                            android:id="@+id/register_rg_sex"
+                            style="@style/user_register_edittext"
+                            android:orientation="horizontal"
+                            android:checkedButton="@+id/sex1"
+                            >
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sex1"
+                                android:text="@string/user_register_sex_man"
+                                android:textSize="9pt" />
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sex2"
+                                android:text="@string/user_register_sex_woman"
+                                android:textSize="9pt"/>
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/user_register_paddingtop_and_botton"
+                android:paddingTop="@dimen/user_register_paddingtop_and_botton" >
+
+                <TextView
+                    style="@style/user_register_left_text"
+                    android:text="@string/user_register_password" />
+                <EditText
+                    android:id="@+id/register_password1"
+                    style="@style/user_register_edittext"
+                    android:digits="@string/password_type"
+                    android:hint="@string/user_register_password_edittext"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/user_register_paddingtop_and_botton"
+                android:paddingTop="@dimen/user_register_paddingtop_and_botton" >
+
+                <TextView
+                    style="@style/user_register_left_text"
+                    android:text="@string/user_register_again_password" />
+
+                <EditText
+                    android:id="@+id/register_password2"
+                    style="@style/user_register_edittext"
+                    android:digits="@string/password_type"
+                    android:hint="@string/user_register_again_password_edittext"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_dd" />
+
+            <TextView
+                android:id="@+id/user_register_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/bt_regist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/red"
+                android:padding="@dimen/user_register_register_now_padding"
+                android:text="@string/user_register_register_now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/user_register_register_now_textsize" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

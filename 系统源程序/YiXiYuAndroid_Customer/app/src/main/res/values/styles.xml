@@ -1,0 +1,164 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+        <style name="Ordinary2ActivityTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/Yes2Animation</item>
+    </style>
+    <!-- 首页 -->
+    <style name="home_title_bar_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    <!-- 扫一扫 -->
+    <style name="fragment_san_tv_style">
+        <item name="android:textSize">35dp</item>
+        <item name="android:text">@string/fragment_scan_tv</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/size_20</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">70dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="fragment_san_bt_style">
+        <item name="android:textSize">@dimen/setting_divide</item>
+        <item name="android:text">@string/fragment_scan_bt</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Yes2Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_colse_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_colse_exit</item>
+    </style>
+
+    <style name="AppStyle" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 自定义ViewPagerIndicator  -->
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="numbers" format="integer"/>
+        <attr name="foreColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="gapWidth" format="float"/>
+    </declare-styleable>
+
+    <style name="myDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/base_dialog_animation</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="base_dialog" parent="@style/myDialog">
+        <item name="android:windowAnimationStyle">@style/base_dialog_animation</item>
+    </style>
+
+    <style name="browse_image" parent="@style/myDialog">
+        <item name="android:windowAnimationStyle">@style/base_dialog_animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="about_me_dialog_animation" parent="@style/myDialog">
+        <item name="@android:windowEnterAnimation">@anim/about_me_dialog_enter</item>
+        <!-- //进入时的动画 -->
+        <item name="@android:windowExitAnimation">@anim/about_me_exit</item>
+        <!-- //退出时的动画 -->
+    </style>
+
+    <style name="about_me_dialog" parent="@style/myDialog">
+        <item name="android:windowAnimationStyle">@style/about_me_dialog_animation</item>
+    </style>
+
+    <style name="base_dialog_animation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/base_dialog_enter</item>
+        <!-- //进入时的动画 -->
+        <item name="@android:windowExitAnimation">@anim/base_dialog__exit</item>
+        <!-- //退出时的动画 -->
+    </style>
+
+    <style name="game_dialog_animation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@null</item>
+        <!-- //进入时的动画 -->
+        <item name="@android:windowExitAnimation">@null</item>
+        <!-- //退出时的动画 -->
+    </style>
+
+    <style name="OrdinaryActivityTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/YesAnimation</item>
+    </style>
+
+    <style name="YesAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_colse_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_colse_exit</item>
+    </style>
+
+    <style name="user_register_left_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/user_register_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="user_register_edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/user_register_text_size</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!-- 星数 -->
+    <style name="ratingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_item</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">14dip</item>
+        <item name="android:maxHeight">14dip</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <!-- ListView -->
+    <style name="baseListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@color/gray</item>
+        <item name="android:dividerHeight">0.8dp</item>
+        <item name="android:listSelector">@color/gray_f8</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:smoothScrollbar">true</item>
+    </style>
+
+
+</resources>
